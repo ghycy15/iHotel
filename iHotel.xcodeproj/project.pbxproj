@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921D5E1D18F4C1B600330A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D5E1C18F4C1B600330A46 /* Foundation.framework */; };
+		921D5E1F18F4C1B600330A46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D5E1E18F4C1B600330A46 /* CoreGraphics.framework */; };
+		921D5E2118F4C1B600330A46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D5E2018F4C1B600330A46 /* UIKit.framework */; };
+		921D5E2718F4C1B600330A46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921D5E2518F4C1B600330A46 /* InfoPlist.strings */; };
+		921D5E2918F4C1B600330A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E2818F4C1B600330A46 /* main.m */; };
+		921D5E2D18F4C1B600330A46 /* BNNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E2C18F4C1B600330A46 /* BNNAppDelegate.m */; };
+		921D5E3018F4C1B600330A46 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921D5E2E18F4C1B600330A46 /* Main_iPhone.storyboard */; };
+		921D5E3318F4C1B600330A46 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921D5E3118F4C1B600330A46 /* Main_iPad.storyboard */; };
+		921D5E3618F4C1B600330A46 /* BNNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E3518F4C1B600330A46 /* BNNViewController.m */; };
+		921D5E3818F4C1B600330A46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921D5E3718F4C1B600330A46 /* Images.xcassets */; };
+		921D5E3F18F4C1B600330A46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D5E3E18F4C1B600330A46 /* XCTest.framework */; };
+		921D5E4018F4C1B600330A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D5E1C18F4C1B600330A46 /* Foundation.framework */; };
+		921D5E4118F4C1B600330A46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D5E2018F4C1B600330A46 /* UIKit.framework */; };
+		921D5E4918F4C1B600330A46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921D5E4718F4C1B600330A46 /* InfoPlist.strings */; };
+		921D5E4B18F4C1B600330A46 /* iHotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E4A18F4C1B600330A46 /* iHotelTests.m */; };
+		921D5E5618F4C21000330A46 /* BNNCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E5518F4C21000330A46 /* BNNCustomer.m */; };
+		921D5E5D18F4C58800330A46 /* BNNSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E5C18F4C58800330A46 /* BNNSignInViewController.m */; };
+		921D5E6118F4CF3100330A46 /* BNNHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D5E5F18F4CF3100330A46 /* BNNHotelViewController.m */; };
+		921D5E6218F4CF3100330A46 /* BNNHotelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921D5E6018F4CF3100330A46 /* BNNHotelViewController.xib */; };
+		92520E9718F4D18100B073F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92520E9618F4D18100B073F7 /* CoreLocation.framework */; };
+		92520E9918F597D800B073F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92520E9818F597D800B073F7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921D5E4218F4C1B600330A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921D5E1118F4C1B600330A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921D5E1818F4C1B600330A46;
+			remoteInfo = iHotel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921D5E1918F4C1B600330A46 /* iHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921D5E1C18F4C1B600330A46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		921D5E1E18F4C1B600330A46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		921D5E2018F4C1B600330A46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		921D5E2418F4C1B600330A46 /* iHotel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHotel-Info.plist"; sourceTree = "<group>"; };
+		921D5E2618F4C1B600330A46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		921D5E2818F4C1B600330A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921D5E2A18F4C1B600330A46 /* iHotel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHotel-Prefix.pch"; sourceTree = "<group>"; };
+		921D5E2B18F4C1B600330A46 /* BNNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNNAppDelegate.h; sourceTree = "<group>"; };
+		921D5E2C18F4C1B600330A46 /* BNNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNNAppDelegate.m; sourceTree = "<group>"; };
+		921D5E2F18F4C1B600330A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		921D5E3218F4C1B600330A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		921D5E3418F4C1B600330A46 /* BNNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNNViewController.h; sourceTree = "<group>"; };
+		921D5E3518F4C1B600330A46 /* BNNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNNViewController.m; sourceTree = "<group>"; };
+		921D5E3718F4C1B600330A46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		921D5E3D18F4C1B600330A46 /* iHotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921D5E3E18F4C1B600330A46 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		921D5E4618F4C1B600330A46 /* iHotelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHotelTests-Info.plist"; sourceTree = "<group>"; };
+		921D5E4818F4C1B600330A46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		921D5E4A18F4C1B600330A46 /* iHotelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHotelTests.m; sourceTree = "<group>"; };
+		921D5E5418F4C21000330A46 /* BNNCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNNCustomer.h; sourceTree = "<group>"; };
+		921D5E5518F4C21000330A46 /* BNNCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNNCustomer.m; sourceTree = "<group>"; };
+		921D5E5B18F4C58800330A46 /* BNNSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNNSignInViewController.h; sourceTree = "<group>"; };
+		921D5E5C18F4C58800330A46 /* BNNSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNNSignInViewController.m; sourceTree = "<group>"; };
+		921D5E5E18F4CF3100330A46 /* BNNHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNNHotelViewController.h; sourceTree = "<group>"; };
+		921D5E5F18F4CF3100330A46 /* BNNHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNNHotelViewController.m; sourceTree = "<group>"; };
+		921D5E6018F4CF3100330A46 /* BNNHotelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNNHotelViewController.xib; sourceTree = "<group>"; };
+		92520E9618F4D18100B073F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		92520E9818F597D800B073F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921D5E1618F4C1B600330A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92520E9918F597D800B073F7 /* QuartzCore.framework in Frameworks */,
+				92520E9718F4D18100B073F7 /* CoreLocation.framework in Frameworks */,
+				921D5E1F18F4C1B600330A46 /* CoreGraphics.framework in Frameworks */,
+				921D5E2118F4C1B600330A46 /* UIKit.framework in Frameworks */,
+				921D5E1D18F4C1B600330A46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921D5E3A18F4C1B600330A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921D5E3F18F4C1B600330A46 /* XCTest.framework in Frameworks */,
+				921D5E4118F4C1B600330A46 /* UIKit.framework in Frameworks */,
+				921D5E4018F4C1B600330A46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921D5E1018F4C1B600330A46 = {
+			isa = PBXGroup;
+			children = (
+				921D5E2218F4C1B600330A46 /* iHotel */,
+				921D5E4418F4C1B600330A46 /* iHotelTests */,
+				921D5E1B18F4C1B600330A46 /* Frameworks */,
+				921D5E1A18F4C1B600330A46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921D5E1A18F4C1B600330A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E1918F4C1B600330A46 /* iHotel.app */,
+				921D5E3D18F4C1B600330A46 /* iHotelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921D5E1B18F4C1B600330A46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92520E9818F597D800B073F7 /* QuartzCore.framework */,
+				92520E9618F4D18100B073F7 /* CoreLocation.framework */,
+				921D5E1C18F4C1B600330A46 /* Foundation.framework */,
+				921D5E1E18F4C1B600330A46 /* CoreGraphics.framework */,
+				921D5E2018F4C1B600330A46 /* UIKit.framework */,
+				921D5E3E18F4C1B600330A46 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921D5E2218F4C1B600330A46 /* iHotel */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E5A18F4C23700330A46 /* Controller */,
+				921D5E5918F4C23300330A46 /* View */,
+				921D5E5818F4C22E00330A46 /* Model */,
+				921D5E2B18F4C1B600330A46 /* BNNAppDelegate.h */,
+				921D5E2C18F4C1B600330A46 /* BNNAppDelegate.m */,
+				921D5E2E18F4C1B600330A46 /* Main_iPhone.storyboard */,
+				921D5E3118F4C1B600330A46 /* Main_iPad.storyboard */,
+				921D5E3418F4C1B600330A46 /* BNNViewController.h */,
+				921D5E3518F4C1B600330A46 /* BNNViewController.m */,
+				921D5E3718F4C1B600330A46 /* Images.xcassets */,
+				921D5E2318F4C1B600330A46 /* Supporting Files */,
+			);
+			path = iHotel;
+			sourceTree = "<group>";
+		};
+		921D5E2318F4C1B600330A46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E2418F4C1B600330A46 /* iHotel-Info.plist */,
+				921D5E2518F4C1B600330A46 /* InfoPlist.strings */,
+				921D5E2818F4C1B600330A46 /* main.m */,
+				921D5E2A18F4C1B600330A46 /* iHotel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		921D5E4418F4C1B600330A46 /* iHotelTests */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E4A18F4C1B600330A46 /* iHotelTests.m */,
+				921D5E4518F4C1B600330A46 /* Supporting Files */,
+			);
+			path = iHotelTests;
+			sourceTree = "<group>";
+		};
+		921D5E4518F4C1B600330A46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E4618F4C1B600330A46 /* iHotelTests-Info.plist */,
+				921D5E4718F4C1B600330A46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		921D5E5818F4C22E00330A46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E5418F4C21000330A46 /* BNNCustomer.h */,
+				921D5E5518F4C21000330A46 /* BNNCustomer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		921D5E5918F4C23300330A46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E6018F4CF3100330A46 /* BNNHotelViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		921D5E5A18F4C23700330A46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				921D5E5B18F4C58800330A46 /* BNNSignInViewController.h */,
+				921D5E5C18F4C58800330A46 /* BNNSignInViewController.m */,
+				921D5E5E18F4CF3100330A46 /* BNNHotelViewController.h */,
+				921D5E5F18F4CF3100330A46 /* BNNHotelViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921D5E1818F4C1B600330A46 /* iHotel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921D5E4E18F4C1B600330A46 /* Build configuration list for PBXNativeTarget "iHotel" */;
+			buildPhases = (
+				921D5E1518F4C1B600330A46 /* Sources */,
+				921D5E1618F4C1B600330A46 /* Frameworks */,
+				921D5E1718F4C1B600330A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHotel;
+			productName = iHotel;
+			productReference = 921D5E1918F4C1B600330A46 /* iHotel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921D5E3C18F4C1B600330A46 /* iHotelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921D5E5118F4C1B600330A46 /* Build configuration list for PBXNativeTarget "iHotelTests" */;
+			buildPhases = (
+				921D5E3918F4C1B600330A46 /* Sources */,
+				921D5E3A18F4C1B600330A46 /* Frameworks */,
+				921D5E3B18F4C1B600330A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921D5E4318F4C1B600330A46 /* PBXTargetDependency */,
+			);
+			name = iHotelTests;
+			productName = iHotelTests;
+			productReference = 921D5E3D18F4C1B600330A46 /* iHotelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921D5E1118F4C1B600330A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Banana;
+				TargetAttributes = {
+					921D5E3C18F4C1B600330A46 = {
+						TestTargetID = 921D5E1818F4C1B600330A46;
+					};
+				};
+			};
+			buildConfigurationList = 921D5E1418F4C1B600330A46 /* Build configuration list for PBXProject "iHotel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921D5E1018F4C1B600330A46;
+			productRefGroup = 921D5E1A18F4C1B600330A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921D5E1818F4C1B600330A46 /* iHotel */,
+				921D5E3C18F4C1B600330A46 /* iHotelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921D5E1718F4C1B600330A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921D5E3318F4C1B600330A46 /* Main_iPad.storyboard in Resources */,
+				921D5E3818F4C1B600330A46 /* Images.xcassets in Resources */,
+				921D5E3018F4C1B600330A46 /* Main_iPhone.storyboard in Resources */,
+				921D5E6218F4CF3100330A46 /* BNNHotelViewController.xib in Resources */,
+				921D5E2718F4C1B600330A46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921D5E3B18F4C1B600330A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921D5E4918F4C1B600330A46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921D5E1518F4C1B600330A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921D5E5618F4C21000330A46 /* BNNCustomer.m in Sources */,
+				921D5E3618F4C1B600330A46 /* BNNViewController.m in Sources */,
+				921D5E2918F4C1B600330A46 /* main.m in Sources */,
+				921D5E2D18F4C1B600330A46 /* BNNAppDelegate.m in Sources */,
+				921D5E6118F4CF3100330A46 /* BNNHotelViewController.m in Sources */,
+				921D5E5D18F4C58800330A46 /* BNNSignInViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921D5E3918F4C1B600330A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921D5E4B18F4C1B600330A46 /* iHotelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921D5E4318F4C1B600330A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921D5E1818F4C1B600330A46 /* iHotel */;
+			targetProxy = 921D5E4218F4C1B600330A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921D5E2518F4C1B600330A46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921D5E2618F4C1B600330A46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		921D5E2E18F4C1B600330A46 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921D5E2F18F4C1B600330A46 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		921D5E3118F4C1B600330A46 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921D5E3218F4C1B600330A46 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		921D5E4718F4C1B600330A46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921D5E4818F4C1B600330A46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921D5E4C18F4C1B600330A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		921D5E4D18F4C1B600330A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921D5E4F18F4C1B600330A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHotel/iHotel-Prefix.pch";
+				INFOPLIST_FILE = "iHotel/iHotel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		921D5E5018F4C1B600330A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHotel/iHotel-Prefix.pch";
+				INFOPLIST_FILE = "iHotel/iHotel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		921D5E5218F4C1B600330A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHotel.app/iHotel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHotel/iHotel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iHotelTests/iHotelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		921D5E5318F4C1B600330A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHotel.app/iHotel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHotel/iHotel-Prefix.pch";
+				INFOPLIST_FILE = "iHotelTests/iHotelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921D5E1418F4C1B600330A46 /* Build configuration list for PBXProject "iHotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921D5E4C18F4C1B600330A46 /* Debug */,
+				921D5E4D18F4C1B600330A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921D5E4E18F4C1B600330A46 /* Build configuration list for PBXNativeTarget "iHotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921D5E4F18F4C1B600330A46 /* Debug */,
+				921D5E5018F4C1B600330A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921D5E5118F4C1B600330A46 /* Build configuration list for PBXNativeTarget "iHotelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921D5E5218F4C1B600330A46 /* Debug */,
+				921D5E5318F4C1B600330A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921D5E1118F4C1B600330A46 /* Project object */;
+}
